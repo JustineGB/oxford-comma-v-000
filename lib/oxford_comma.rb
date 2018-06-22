@@ -1,9 +1,9 @@
 def oxford_comma(array)
-  array.join(", "), [array.last].join(", and ")
+  array.to_sentence
 #if array.length == 2
 #  array.join(",")
 #elsif array.length > 3
-#  array.join(",")
+#  array.join(",")  
 #if array index is > 2 array.joinend
 end
 
