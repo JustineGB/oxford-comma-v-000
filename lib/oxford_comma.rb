@@ -1,11 +1,16 @@
 def oxford_comma(array)
-  array.to_sentence
+  if array.length == 2 
+    array.join(",")
+  elsif array.length > 3
+    array.join("," last.element ", and")
+  end
+end
 #if array.length == 2
 #  array.join(",")
 #elsif array.length > 3
-#  array.join(",")  
+#  array.join(",")
 #if array index is > 2 array.joinend
-end
+
 
 
   #add "and" when just two words
